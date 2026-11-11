@@ -13,6 +13,7 @@ import p3 from "@/assets/p3.webp";
 import p4 from "@/assets/p4.webp";
 import p5 from "@/assets/p5.webp";
 import p6 from "@/assets/p6.webp";
+import p7 from "@/assets/p7.webp";
 
 // 1. Defined category type union
 export type Cat = "All" | "AI & DS" | "Full Stack" | "Web Development";
@@ -74,6 +75,15 @@ const projects = [
     stack: ["Python", "OpenCV", "YOLOv3", "Computer Vision"],
     github: "https://github.com/vishnukumar60/AI-Powered-Area-Surveillance-System-for-Theft-Detection",
     live: "https://github.com/vishnukumar60/",
+  },
+  {
+    title: "Voice Studio - voice recognition model",
+    desc: "•	Developed a speech recognition model that converts spoken audio into text using and text into audio by deep learning and natural language processing techniques.",
+    img: p7,
+    cat: "AI & ML" as const,
+    stack: ["HTML","CSS"],
+    github: "https://github.com/vishnukumar60/voice-studio",
+    live: "https://fantastic-souffle-009c7d.netlify.app/",
   },
 ];
 
